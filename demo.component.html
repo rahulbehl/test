@@ -1,0 +1,566 @@
+<div class="wrapper">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary mb-3">
+        <div class="flex-row d-flex">
+            <button type="button" class="navbar-toggler mr-2 " data-toggle="offcanvas" title="Toggle responsive left sidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">CLINIC LOGO</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse nav_bar" id="collapsingNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">appointment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EMR</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#myAlert" data-target="#myModal" data-toggle="modal"><i class="fa fa-bell" aria-hidden="true"></i></a>
+
+                </li>
+                <li class="nav-item">
+                    <div class="bs-example">
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle nav-link notification_icon" data-toggle="dropdown"> <i class="fa fa-user" aria-hidden="true"></i>Bhavna Sohpaul</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Action</a>
+                                <a href="#" class="dropdown-item">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="main">
+        <div class="row">   
+            <div class="col-md-3">
+                <div class="card common_card">
+                    <div class="card-header">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h3 class="mb-0">My Info </h3>
+                            </div>
+                            <div class="col-4 text-right">
+
+                                <a href="#!" data-target="#myModal2" data-toggle="modal" class="btn btn-sm btn-primary"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p0">
+
+
+                        <div class="col-md-12">
+                            <div class="profile-img">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                                <div class="file btn btn-lg btn-primary">
+                                    Change Photo
+                                    <input type="file" name="file"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="profile-usertitle"><div class="profile-usertitle-name"> Marcus@gmail.com</div><div class="profile-usertitle-job"> Password</div></div>
+
+
+                        </div>
+                        <div class="col-md-12"><div class="row">
+                                <div class="profile-usermenu"><ul class="nav"><li class="active"> <a href="#"> <i class="icon-home"></i> Billing Methods </a></li><li> <a href="#"> <i class="icon-settings"></i> Password & Security </a></li><li> <a href="#"> <i class="icon-info"></i> Notification Settings </a></li><li> <a href="#"> <i class="icon-info"></i> Members & Family </a></li></ul></div>
+
+                            </div>  </div>
+
+                    </div>        
+                </div> </div>
+            <div class="col-xl-9">
+                <div class="card common_card">
+                    <div class="card-header">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h3 class="mb-0">Demographics </h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <a href="#!" data-target="#myModal1" data-toggle="modal" class="btn btn-sm btn-primary"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <h6 class="heading-small text-muted mb-4">Basic information</h6>
+                            <div class="pl-lg-4">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-username">Title</label>
+                                            <select name="cars" class="custom-select">
+                                                <option>Select Title</option>
+                                                <option selected value="volvo">Title</option>
+                                                <option value="fiat">Title</option>
+                                                <option value="audi">Title</option>
+                                            </select>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-email">Date of birth</label>
+                                            <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-first-name">First name</label>
+                                            <input type="text" id="input-first-name" class="form-control" placeholder="First name" value="Lucky">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-middle-name">Middle name</label>
+                                            <input type="text" id="input-middle-name" class="form-control" placeholder="Middle name" value="Jesse">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-last-name">Last name</label>
+                                            <input type="text" id="input-last-name" class="form-control" placeholder="Last name" value="Sen">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-maiden-name">Maiden name</label>
+                                            <input type="text" id="input-maiden-name" class="form-control" placeholder="Last name" value="maiden">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-last-name">Sex</label>
+                                            <div class="form-check p0"> <div class="form-check-inline">
+                                                    <label class="form-check-label" for="radio3">
+                                                        <input type="radio" class="form-check-input" id="radio1" name="optradio1" value="option3" checked>Male
+                                                    </label>
+                                                </div>
+                                                <div class="form-check-inline">
+                                                    <label class="form-check-label" for="radio4">
+                                                        <input type="radio" class="form-check-input" id="radio2" name="optradio1" value="option4">Female
+                                                    </label>
+                                                </div>  </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-language-name">Preferred language</label>
+                                            <div class="form-check p0"> <div class="form-check-inline">
+                                                    <label class="form-check-label" for="radio1">
+                                                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>English
+                                                    </label>
+                                                </div>
+                                                <div class="form-check-inline">
+                                                    <label class="form-check-label" for="radio2">
+                                                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">French
+                                                    </label>
+                                                </div>  </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <!-- Address -->
+                            <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                            <div class="pl-lg-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-address">Address</label>
+                                            <input id="input-address" class="form-control" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-city">City</label>
+                                            <select name="City" class="custom-select">
+                                                <option>Select City</option>
+                                                <option selected value="volvo">New York</option>
+                                                <option value="fiat">Title</option>
+                                                <option value="audi">Title</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-state">Province or State</label>
+                                            <select name="City" class="custom-select">
+                                                <option>Select State</option>
+                                                <option selected value="volvo">Punjab</option>
+                                                <option value="fiat">Title</option>
+                                                <option value="audi">Title</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-country">Country</label>
+                                            <select name="City" class="custom-select">
+                                                <option>Select Country</option>
+                                                <option selected value="volvo">United States</option>
+                                                <option value="fiat">Title</option>
+                                                <option value="audi">Title</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-postal-code">Postal Code</label>
+                                            <input type="number" id="input-postal-code" class="form-control" placeholder="12345">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-primary-phone">Primary phone</label>
+                                            <input type="number" id="input-primary-code" class="form-control" placeholder="12345">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-hphone">Home phone</label>
+                                            <input type="number" id="input-home-phone" class="form-control" placeholder="9813424288">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-phone">Work phone</label>
+                                            <input type="number" id="input-postal-code" class="form-control" placeholder="9813424288">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-mobile">Mobile phone</label>
+                                            <input type="number" id="input-phone-code" class="form-control" placeholder="9813424288">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="input-fax">Fax</label>
+                                            <input type="number" id="input-fax-code" class="form-control" placeholder="12345">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--/.container-->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-custom" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-1">
+                    <h4 class="modal-title" id="myModalLabel">Modal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <h6 class="heading-small text-muted mb-4">Basic Information</h6>
+                        <div class="pl-lg-4">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-username">Title</label>
+                                        <select name="cars" class="custom-select">
+                                            <option>Select Title</option>
+                                            <option selected value="volvo">Title</option>
+                                            <option value="fiat">Title</option>
+                                            <option value="audi">Title</option>
+                                        </select>
+
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-email">Date of Birth</label>
+                                        <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-first-name">First Name</label>
+                                        <input type="text" id="input-first-name" class="form-control" placeholder="First name" value="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-middle-name">Middle name</label>
+                                        <input type="text" id="input-middle-name" class="form-control" placeholder="Middle name" value="Middle Name">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-last-name">Last name</label>
+                                        <input type="text" id="input-last-name" class="form-control" placeholder="Last name" value="Last Name">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-maiden-name">Maiden name</label>
+                                        <input type="text" id="input-maiden-name" class="form-control" placeholder="Last name" value="maiden">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-last-name">Sex</label>
+                                        <div class="form-check p0"> <div class="form-check-inline">
+                                                <label class="form-check-label" for="radio3">
+                                                    <input type="radio" class="form-check-input" id="radio1" name="optradio1" value="option3" checked>Male
+                                                </label>
+                                            </div>
+                                            <div class="form-check-inline">
+                                                <label class="form-check-label" for="radio4">
+                                                    <input type="radio" class="form-check-input" id="radio2" name="optradio1" value="option4">Female
+                                                </label>
+                                            </div>  </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-language-name">Preferred language</label>
+                                        <div class="form-check p0"> <div class="form-check-inline">
+                                                <label class="form-check-label" for="radio1">
+                                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>English
+                                                </label>
+                                            </div>
+                                            <div class="form-check-inline">
+                                                <label class="form-check-label" for="radio2">
+                                                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">French
+                                                </label>
+                                            </div>  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Address -->
+                        <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                        <div class="pl-lg-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-address">Address</label>
+                                        <input id="input-address" class="form-control" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-city">City</label>
+                                        <select name="City" class="custom-select">
+                                            <option>Select City</option>
+                                            <option selected value="volvo">New York</option>
+                                            <option value="fiat">Title</option>
+                                            <option value="audi">Title</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-state">Province or State</label>
+                                        <select name="City" class="custom-select">
+                                            <option>Select State</option>
+                                            <option selected value="volvo">Punjab</option>
+                                            <option value="fiat">Title</option>
+                                            <option value="audi">Title</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-country">Country</label>
+                                        <select name="City" class="custom-select">
+                                            <option>Select Country</option>
+                                            <option selected value="volvo">United States</option>
+                                            <option value="fiat">Title</option>
+                                            <option value="audi">Title</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-postal-code">Postal Code</label>
+                                        <input type="number" id="input-postal-code" class="form-control" placeholder="Postal Code">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-primary-phone">Primary phone</label>
+                                        <input type="number" id="input-primary-code" class="form-control" placeholder="Primary phone">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-hphone">Home phone</label>
+                                        <input type="number" id="input-home-phone" class="form-control" placeholder="Home phone">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-phone">Work phone</label>
+                                        <input type="number" id="input-postal-code" class="form-control" placeholder="Work Phone">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-mobile">Mobile phone</label>
+                                        <input type="number" id="input-phone-code" class="form-control" placeholder="Mobile phone">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-fax">Fax</label>
+                                        <input type="number" id="input-fax-code" class="form-control" placeholder="Fax">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary-outline" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-1">
+                    <h4 class="modal-title" id="myModalLabel">Notification</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Any content can be placed inside the modal and it can use the Bootstrap grid classes.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary-outline" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-1">
+                    <h4 class="modal-title" id="myModalLabel">Details</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <h6 class="heading-small text-muted mb-4">My Info</h6>
+                        <div class="pl-lg-4">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-username">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="input-email">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary-outline" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
